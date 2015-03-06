@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 
 /*
 	Transit by TEMPLATED
@@ -955,6 +956,7 @@
 			color: #ffffff;
 			height: inherit;
 			left: 3em;
+			font-family: Roboto Slab,serif;
 			line-height: inherit;
 			margin: 0;
 			padding: 0;
@@ -1233,4 +1235,15 @@
 
 		.grid-demo .row.flush > div:last-child span {
 			border-radius: 0 4px 4px 0;
+		}
+		p {
+			font-size: 90%;
+		}
+		h2 {
+			font-family: Roboto Slab, serif;
+			font-size: 50%;
+		}
+		h3 {
+			font-family: Roboto Slab, serif;
+			font-size: 110%;
 		}
