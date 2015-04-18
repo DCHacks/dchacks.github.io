@@ -931,18 +931,18 @@
 /* Header */
 
 	body.landing #header {
-		background-color: #2680C5;
 		left: 0;
-		position: fixed;
+		position: absolute;
 		top: 0;
 	}
 
 		body.landing #header nav a {
-			color: rgba(255, 255, 255, 0.5);
+			color: #EB7260;
+			font-weight: bold;
 		}
 
 	#header {
-		background-color: #383b43;
+		background-color: transparent;
 		color: #ffffff;
 		cursor: default;
 		font-size: 1.1em;
@@ -1034,7 +1034,7 @@
 /* Banner */
 
 	#banner {
-		background-image: url("../c3-compressed.jpg");
+		background-image: url("../1.jpg");
 		background-position: center center;
 		background-size: cover;
 		color: #ffffff;
@@ -1118,7 +1118,7 @@
 			}
 
 		.wrapper.style3 {
-			background-color: #2680C5;
+			background-color: #354458;
 			color: #ffffff;
 		}
 
