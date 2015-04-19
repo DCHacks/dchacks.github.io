@@ -1033,9 +1033,10 @@
 /* Banner */
 
 	#banner {
-		background-image: url("../1.jpg");
+		background-image: url("../swg.jpg");
 		background-position: center center;
 		background-size: cover;
+		background-color: #354458;
 		color: #ffffff;
 		padding: 14em 0em 14em;
 		text-align: center;
