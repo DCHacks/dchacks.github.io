@@ -59,7 +59,8 @@
 	input[type="reset"],
 	input[type="button"],
 	.button {
-		padding: 0;
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 
 /* Banner */
