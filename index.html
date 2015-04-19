@@ -22,6 +22,22 @@
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 		</noscript>
+		<script>
+					$(function() {
+			  $('a[href*=#]:not([href=#])').click(function() {
+			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			      var target = $(this.hash);
+			      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			      if (target.length) {
+			        $('html,body').animate({
+			          scrollTop: target.offset().top
+			        }, 1000);
+			        return false;
+			      }
+			    }
+			  });
+			});
+		</script>
 	</head>
 	<body class="landing">
 
@@ -31,10 +47,10 @@
 				<nav id="nav">
 					<ul>
 						<li><a href="#about">About</a></li>
-						<li><a href="#schedule">Schedule</a></li>
-						<li><a href="#sponsors">Sponsors</a></li>
-						<li><a href="#prizes">Prizes</a></li>
 						<li><a href="#FAQ">FAQ</a></li>
+						<li><a href="#sponsors">Sponsors</a></li>
+						<li><a href="#prizes">Prizes</a></li>					<li><a href="#schedule">Schedule</a></li>
+
 					</ul>
 				</nav>
 			</header>
@@ -148,7 +164,7 @@
 <!-- 						<div class="4u">
  -->							
 <!--  							<span class="image fit">
- -->								<a href="http://www.clarabridge.com" target="_blank"><img src="css/clarabridge.png"></a>
+ -->								<a href="http://www.clarabridge.com" target="_blank"><img src="css/clarabridge.png" width="300px" ></a>
 							<!-- </span> -->
 <!-- 						</div>
  -->						
