@@ -1,7 +1,15 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
-@import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+/*@import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
+*//*@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+*/@font-face {
+    font-family: 'Roboto Slab'; /*a name to be used later*/
+    src: url('KlinicSlabMedium.otf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'Raleway'; /*a name to be used later*/
+    src: url('KlinicSlabMedium.otf'); /*URL to font*/
+}
 
 /*
 	Transit by TEMPLATED
