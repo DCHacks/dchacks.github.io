@@ -868,6 +868,7 @@
 		input[type="button"].big,
 		.button.big {
 			font-size: 1.35em;
+			background-color: #EB7260;
 		}
 
 		input[type="submit"].alt,
