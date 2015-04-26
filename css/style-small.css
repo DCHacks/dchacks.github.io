@@ -13,8 +13,13 @@
 /* Banner */
 
 	#banner {
-		padding: 8em 2em 8em;
+		padding: 8em 2em 2em;
 	}
+
+	#banner h2 {
+		font-size: 4em;
+	}
+
 
 /* Wrapper */
 

@@ -1267,4 +1267,11 @@
 
 
 		  }
+		  #banner h2 {
+			color: #ffffff;
+			font-size: 10em;
+			line-height: 1.25em;
+			margin: 0 0 0em 0;
+			padding: 0;
+		}
 	}	
