@@ -1043,12 +1043,10 @@
 /* Banner */
 
 	#banner {
-		background-attachment: fixed;
 		background-image: url("../swg.jpg");
-		background-position: center top;
+		background-position: center center;
 		background-size: cover;
 		background-color: #354458;
-		line-height: 1.75;
 		color: #ffffff;
 		padding: 14em 0em 14em;
 		text-align: center;
