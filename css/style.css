@@ -1045,9 +1045,8 @@
 	#banner {
 		background-image: url("../swg.jpg");
 		background-position: top center;
-		/*position: relative;*/
-		background-attachment: fixed;
-		background-size: cover;
+/*		background-attachment: fixed;
+*/		background-size: cover;
 		background-color: #354458;
 		color: #ffffff;
 		padding: 14em 0em 14em;
