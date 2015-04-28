@@ -1044,7 +1044,9 @@
 
 	#banner {
 		background-image: url("../swg.jpg");
-		background-position: center center;
+		background-position: top center;
+		/*position: relative;*/
+		background-attachment: fixed;
 		background-size: cover;
 		background-color: #354458;
 		color: #ffffff;
@@ -1068,7 +1070,9 @@
 			font-size: 2.1em;
 			margin-bottom: 1.75em;
 		}
-
+body.is-touch #banner {
+		background-attachment: scroll;
+	}
 /* Wrapper */
 
 	.wrapper {
@@ -1129,6 +1133,7 @@
 
 		.wrapper.style3 {
 			background-color: #354458;
+
 			color: #ffffff;
 		}
 
