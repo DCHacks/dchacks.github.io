@@ -1,12 +1,8 @@
 <!DOCTYPE html>
-<!--
-	Transit by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
 <html lang="en"
-      xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:fb="http://ogp.me/ns/fb#">
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:fb="http://ogp.me/ns/fb#">
+
 	<head>
 		<meta charset="UTF-8">
 		<title>DCHacks: August 1-2, 2015</title>
@@ -29,131 +25,127 @@
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 		</noscript>
 		<script>
-					$(function() {
-			  $('a[href*=#]:not([href=#])').click(function() {
-			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-			      var target = $(this.hash);
-			      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-			      if (target.length) {
-			        $('html,body').animate({
-			          scrollTop: target.offset().top
-			        }, 1000);
-			        return false;
-			      }
+			$(function() {
+			$('a[href*=#]:not([href=#])').click(function() {
+			  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			    var target = $(this.hash);
+			    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			    if (target.length) {
+			      $('html,body').animate({
+			        scrollTop: target.offset().top
+			      }, 1000);
+			      return false;
 			    }
-			  });
+			  }
+			});
 			});
 		</script>
 		<script>
-// Elevator script included on the page, already.
-
-		window.onload = function() {
-		  var elevator = new Elevator({
-		    mainAudio: '/src/to/audio.mp3',
-		    endAudio: '/src/to/end-audio.mp3'
-		  });
-		}
-
-		// You can run the elevator, by calling.
-		elevator.elevate();
+			// Elevator script included on the page, already.
+			
+					window.onload = function() {
+					  var elevator = new Elevator({
+					    mainAudio: '/src/to/audio.mp3',
+					    endAudio: '/src/to/end-audio.mp3'
+					  });
+					}
+			
+					// You can run the elevator, by calling.
+					elevator.elevate();
+					
 		</script>
 	</head>
-	<body class="landing">
 
+	<body class="landing">
 		<!-- Header -->
-			<header id="header">
-				<h1><a href="index.html"><span style="color:#E9E0D6">DC</span><span style="color:#EB7260">Hacks</span></a></h1>
-				<nav id="nav">
-					<ul style="font-size:20px">
-						<li><a href="#about">About</a></li>
-						<li><a href="#FAQ">FAQ</a></li>
-						<li><a href="#sponsors">Sponsors</a></li>
-						<li><a href="#prizes">Prizes</a></li>
-						<li><a href="#schedule">Schedule</a></li>
-					</ul>
-				</nav>
-			</header>
+		<header id="header">
+			<h1><a href="index.html"><span style="color:#E9E0D6">DC</span><span style="color:#EB7260">Hacks</span></a></h1>
+			<nav id="nav">
+				<ul style="font-size:20px">
+					<li><a href="#about">About</a></li>
+					<li><a href="#FAQ">FAQ</a></li>
+					<li><a href="#sponsors">Sponsors</a></li>
+					<li><a href="#prizes">Prizes</a></li>
+					<li><a href="#schedule">Schedule</a></li>
+					<!-- <li><a href="#judges">Judges</a></li> -->
+				</ul>
+			</nav>
+		</header>
 
 		<!-- Banner -->
-			<section id="banner">
-				<h2><span style="color:#E9E0D6">DC</span><span style="color:#EB7260">Hacks</span></h2>
-				<p>August 1st - 2nd 2015 @ <a style="color:white" href="http://cvent.com">Cvent World HQ</a></p>
-				<!-- <a href="#" class="button big" style="background-color:#EB7260; margin: 12px">Register (open soon)</a>
-				<a href="#" class="button big" style="background-color:#EB7260; margin: 12px">Mentor (open soon)</a> -->
-<!-- 				<br>
- -->				<center>
-	 				<a href="http://bit.ly/dchacks2015" class="button big">Hacker Registration</a>
-	 				<br><br>
-	 				<a href="http://bit.ly/dchacks-mentors" class="button big">Mentor Registration</a>
- 				</center>
-				<ul class="actions">
-					<li>
-<!-- 						<a href="#" class="button big">Lorem ipsum dolor</a>
- -->					</li>
-				</ul>
-			</section>
+		<section id="banner">
+			<h2><span style="color:#E9E0D6">DC</span><span style="color:#EB7260">Hacks</span></h2>
+			<p>August 1st - 2nd 2015 @ <a style="color:white" href="http://cvent.com">Cvent World HQ</a></p>
+			<center>
+				<a href="http://bit.ly/dchacks2015" class="button big">Hacker Registration</a>
+				<br><br>
+				<a href="http://bit.ly/dchacks-mentors" class="button big">Mentor Registration</a>
+			</center>
+		</section>
 
-				<!-- One -->
-			<section id="about" class="wrapper style1 special">
-				<div class="container">
-					<header class="major">
-						<h2>About</h2>
-						<br>
-						<p style="line-height: 135%; color: #474747">DCHacks is Washington, D.C.'s premier high school hackathon and the largest of its kind on the eastern seaboard! We're inviting 400 of the brightest students in the area to come together to create awesome software and hardware projects within 24 hours. We'll then judge the projects at the end of the event for prizes!</p>
-                        <p style="line-height: 135%; color: #474747">We'll provide the food, resources, swag, and mentorship, all for free, to fuel you for the duration of the event. You'll hear cool tech talks and meet amazing guest speakers from the top tech startups and companies in the world. The only thing that we need from you is a will to learn! We hope to see you there!</p>
-					</header>
-					
+		<!-- One -->
+		<section id="about" class="wrapper style1 special">
+			<div class="container">
+				<header class="major">
+					<h2>About</h2>
+					<br>
+					<p style="line-height: 135%; color: #474747">DCHacks is Washington, D.C.'s premier high school hackathon and the largest of its kind on the eastern seaboard! We're inviting 400 of the brightest students in the area to come together to create awesome software and hardware projects within 24 hours. We'll then judge the projects at the end of the event for prizes!</p>
+					<p style="line-height: 135%; color: #474747">We'll provide the food, resources, swag, and mentorship, all for free, to fuel you for the duration of the event. You'll hear cool tech talks and meet amazing guest speakers from the top tech startups and companies in the world. The only thing that we need from you is a will to learn! We hope to see you there!</p>
+				</header>
+			</div>
+		</section>
+
+		<!-- Two -->
+		<section id="FAQ" class="wrapper style3 special">
+			<div class="container">
+				<header class="major">
+					<h2 style="color:#F5F5F5">Frequently Asked Questions</h2>
+				</header>
+				<div class="row 150%">
+					<div class="4u 12u$(medium)">
+						<section class="box">
+							<h3 class="faqh3" style="font-size: 1.2em">Who can participate?</h3>
+							<p class="faqh3">Any high schooler can participate! If you're starting college in the fall, you can participate, too! However, just because you're not a high schooler doesn't mean you can't help out. If you have a passion for computer science and are interested in coming, please sign up to be a mentor or lead a workshop!</p>
+						</section>
+					</div>
+					<div class="4u 12u$(medium)">
+						<section class="box">
+							<h3 class="faqh3" style="font-size: 1.2em">What can I make?</h3>
+							<p class="faqh3">Anything you'd like! Come up with your favorite idea and make it reality! Use any programming languages, development stacks, APIs, and other tools you'd need. If you can't think of any ideas or need some inspiration, check out <a style="font-weight:bold"href="https://devideas.github.io/">DevIdeas</a> and continue on from there.</p>
+						</section>
+					</div>
+					<div class="4u$ 12u$(medium)">
+						<section class="box">
+							<h3 class="faqh3" style="font-size: 1.2em">What if I don’t know how to code?</h3>
+							<p class="faqh3">Don't worry! We'll have mentors and workshops available to help you for the entire duration of the event! All we ask from you is the will to learn and create something that you can be proud of.</p>
+						</section>
+					</div>
 				</div>
-			</section>
-			<section id="FAQ" class="wrapper style3 special">
-				<div class="container">
-					<header class="major">
-						<h2 style="color:#F5F5F5">Frequently Asked Questions</h2>
-					</header>
-					<div class="row 150%">
-						<div class="4u 12u$(medium)">
-							<section class="box">
-								<h3 class="faqh3" style="font-size: 1.2em">Who can participate?</h3>
-								<p class="faqh3">Any high schooler can participate! If you're starting college in the fall, you can participate, too! However, just because you're not a high schooler doesn't mean you can't help out. If you have a passion for computer science and are interested in coming, please sign up to be a mentor or lead a workshop!</p>
-							</section>
-						</div>
-						<div class="4u 12u$(medium)">
-							<section class="box">
-								<h3 class="faqh3" style="font-size: 1.2em">What can I make?</h3>
-								<p class="faqh3">Anything you'd like! Come up with your favorite idea and make it reality! Use any programming languages, development stacks, APIs, and other tools you'd need. If you can't think of any ideas or need some inspiration, check out <a style="font-weight:bold"href="https://devideas.github.io/">DevIdeas</a> and continue on from there.</p>
-							</section>
-						</div>
-						<div class="4u$ 12u$(medium)">
-							<section class="box">
-								<h3 class="faqh3" style="font-size: 1.2em">What if I don’t know how to code?</h3>
-								<p class="faqh3">Don't worry! We'll have mentors and workshops available to help you for the entire duration of the event! All we ask from you is the will to learn and create something that you can be proud of.</p>
-							</section>
-						</div>
+				<div class="row 150%">
+					<div class="4u 12u$(medium)">
+						<section class="box">
+							<h3 class="faqh3" style="font-size: 1.2em">How much does it cost to attend?</h3>
+							<p class="faqh3">Short answer: nothing. Long answer: $0.00. Yup! We'll provide you with the resources, tools, mentors, and food, all for free. The only thing that we need from you is a will to learn!</p>
+						</section>
+					</div>
+					<div class="4u 12u$(medium)">
+						<section class="box">
+							<h3 class="faqh3" style="font-size: 1.2em">What should I bring to the hackathon?</h3>
+							<p class="faqh3">A laptop + charger<br>
+								A cellphone<br>
+								Sleeping bag (highly recommended)<br>
+								At least two sets of clothes<br>
+								Basic toiletries
+							</p>
+						</section>
+					</div>
+					<div class="4u$ 12u$(medium)">
+						<section class="box">
+							<h3 class="faqh3" style="font-size: 1.2em">Do I need to be at the venue at all times?</h3>
+							<p class="faqh3">Due to security reasons, you must stay in the building at all times. If you have an emergency or really have to leave, don't worry. We'll work it out.</p>
+						</section>
 					</div>
 					<div class="row 150%">
-						<div class="4u 12u$(medium)">
-							<section class="box">
-								<h3 class="faqh3" style="font-size: 1.2em">How much does it cost to attend?</h3>
-								<p class="faqh3">Short answer: nothing. Long answer: $0.00. Yup! We'll provide you with the resources, tools, mentors, and food, all for free. The only thing that we need from you is a will to learn!</p>
-							</section>
-						</div>
-						<div class="4u 12u$(medium)">
-							<section class="box">
-								<h3 class="faqh3" style="font-size: 1.2em">What should I bring to the hackathon?</h3>
-								<p class="faqh3">A laptop + charger<br>
-									A cellphone<br>
-									Sleeping bag (highly recommended)<br>
-									At least two sets of clothes<br>
-									Basic toiletries</p>
-							</section>
-						</div>
-						<div class="4u$ 12u$(medium)">
-							<section class="box">
-								<h3 class="faqh3" style="font-size: 1.2em">Do I need to be at the venue at all times?</h3>
-								<p class="faqh3">Due to security reasons, you must stay in the building at all times. If you have an emergency or really have to leave, don't worry. We'll work it out.</p>
-							</section>
-						</div>
-						<div class="row 150%">
 						<div class="4u 12u$(medium)">
 							<section class="box">
 								<h3 class="faqh3" style="font-size: 1.2em">What's the max team size? What if I don't have a team yet?</h3>
@@ -173,168 +165,160 @@
 							</section>
 						</div>
 					</div>
+				</div>
+			</div>
+			</div>
+		</section>
+
+		<!-- Three -->
+		<section id="sponsors" class="wrapper style1 special">
+			<div class="container">
+				<header class="major">
+					<h2 style="line-height: 10%">Sponsors</h2>
+				</header>
+				<div class="row uniform">
+					<div class="2u 12u$(medium)">
+					</div>
+					<div class="8u 12u$(medium)">
+						<a href="http://www.microsoft.com" target="_blank"><img src="sponsors/microsoft.png" style="width: 100%;"></a>
+					</div>
+					<div class="2u 12u$(medium)">
 					</div>
 				</div>
-				</div>
-			</section>
-		<!-- Two -->
-			
-		<!-- One -->
-			<section id="sponsors" class="wrapper style1 special">
-				<div class="container">
-					<header class="major">
-						<h2 style="line-height: 10%">Sponsors</h2>
-					</header>
-
-					<div class="row uniform">
-						<div class="2u 12u$(medium)">
-            			</div>
-            			<div class="8u 12u$(medium)">
-                			<a href="http://www.microsoft.com" target="_blank"><img src="sponsors/microsoft.png" style="width: 100%;"></a>
-            			</div>
-            			<div class="2u 12u$(medium)">
-            			</div>
-                    </div>
-
-                    <div class="row uniform">
-            			<div class="6u 12u$(medium)">
-                			<a href="http://google.com" target="_blank"><img src="sponsors/google.png" style="width: 100%;"></a>
-            			</div>
-            			<div class="6u 12u$(medium)">
-                			<a href="http://www.nova-labs.org/" target="_blank"><img src="sponsors/nova-labs.png" style="width: 100%;"></a>
-            			</div>
-                    </div>
-
-					<div class="row uniform">
-						<div class="4u 12u$(medium)">
-                			<a href="https://getpebble.com" target="_blank"><img src="sponsors/pebble.png" style="width: 100%;"></a>
-            			</div>
-            			<div class="4u 12u$(medium)">
-                			<a href="http://cvent.com" target="_blank"><img src="sponsors/cvent.png" style="width: 100%;"></a>
-            			</div>
-            			<div class="4u 12u$(medium)">
-                			<a href="https://tessel.io" target="_blank"><img src="sponsors/tessel.svg" style="width: 100%;"></a>
-            			</div>
-                    </div>
-
-        			<div class="row uniform">
-            			<div class="4u 12u$(medium)">
-                			<a href="http://digitalocean.com" target="_blank"><img src="sponsors/digitalocean.png" style="width: 100%;"></a>
-            			</div>
-            			<div class="4u 12u$(medium)">
-                			<a href="http://fiscalnote.com" target="_blank"><img src="sponsors/fiscalnote.png" style="width: 100%;"></a>
-            			</div>
-        				<div class="4u 12u$(medium)">
-                			<a href="http://clearancejobs.com" target="_blank"><img src="sponsors/clearancejobs.svg" style="width: 100%;"></a>
-            			</div>
-        			</div>
-
-        			<div class="row uniform">
-            			<div class="4u 12u$(medium)">
-                			<a href="http://www.yext.com" target="_blank"><img src="sponsors/yext.png" style="width: 100%;"></a>
-            			</div>
-        				<div class="4u 12u$(medium)">
-                			<a href="http://www.clarabridge.com" target="_blank"><img src="sponsors/clarabridge.svg" style="width: 100%;"></a>
-        				</div>
-            			<div class="4u 12u$(medium)">
-            				<a href="https://www.danteinc.com" target="_blank"><img src="sponsors/dante.png" style="width: 100%;"></a>
-            			</div>
-        			</div>
-
-        			<div class="row uniform">
-        				<div class="3u 12u$(medium)">
-                			<a href="https://www.firebase.com" target="_blank"><img src="sponsors/firebase.png" style="width: 100%;"></a>
-            			</div>
-            			<div class="3u 12u$(medium)">
-                			<a href="http://sense360.com" target="_blank"><img src="sponsors/sense360.png" style="width: 100%;"></a>
-            			</div>
-            			<div class="3u 12u$(medium)">
-                			<a href="http://github.com" target="_blank"><img src="sponsors/github.png" style="width: 100%;"></a>
-            			</div>
-        				<div class="3u 12u$(medium)">
-                			<a href="http://drifty.com" target="_blank"><img src="sponsors/drifty.png" style="width: 100%;"></a>
-        				</div>
-        			</div>
-
-        			<br><br>
-					<p style="font-size: 22px; text-align:center">If you're interested in sponsoring DCHacks,<br> please <a style="font-weight:bold;" href="mailto:sponsor@dchacks.org">contact us</a> or check out the <a href="sponsorship.pdf" style="font-weight:bold;">sponsorship PDF</a>!</p>
+				<div class="row uniform">
+					<div class="6u 12u$(medium)">
+						<a href="http://google.com" target="_blank"><img src="sponsors/google.png" style="width: 100%;"></a>
+					</div>
+					<div class="6u 12u$(medium)">
+						<a href="http://www.nova-labs.org/" target="_blank"><img src="sponsors/nova-labs.png" style="width: 100%;"></a>
 					</div>
 				</div>
-			</section>
-					<!-- Two -->
-			<section id="prizes" style="background-color:#354458"class="wrapper style2 special">
-				<div class="container">
-					<header class="major">
-						<h2 style="color:white">Prizes</h2>
-						<br>
-						<p style="color:white">What's a competition without a couple of prizes? We'll be releasing more soon!</p>
-					</header>
+				<div class="row uniform">
+					<div class="4u 12u$(medium)">
+						<a href="https://getpebble.com" target="_blank"><img src="sponsors/pebble.png" style="width: 100%;"></a>
+					</div>
+					<div class="4u 12u$(medium)">
+						<a href="http://cvent.com" target="_blank"><img src="sponsors/cvent.png" style="width: 100%;"></a>
+					</div>
+					<div class="4u 12u$(medium)">
+						<a href="https://tessel.io" target="_blank"><img src="sponsors/tessel.svg" style="width: 100%;"></a>
+					</div>
+				</div>
+				<div class="row uniform">
+					<div class="4u 12u$(medium)">
+						<a href="http://digitalocean.com" target="_blank"><img src="sponsors/digitalocean.png" style="width: 100%;"></a>
+					</div>
+					<div class="4u 12u$(medium)">
+						<a href="http://fiscalnote.com" target="_blank"><img src="sponsors/fiscalnote.png" style="width: 100%;"></a>
+					</div>
+					<div class="4u 12u$(medium)">
+						<a href="http://clearancejobs.com" target="_blank"><img src="sponsors/clearancejobs.svg" style="width: 100%;"></a>
+					</div>
+				</div>
+				<div class="row uniform">
+					<div class="4u 12u$(medium)">
+						<a href="http://www.yext.com" target="_blank"><img src="sponsors/yext.png" style="width: 100%;"></a>
+					</div>
+					<div class="4u 12u$(medium)">
+						<a href="http://www.clarabridge.com" target="_blank"><img src="sponsors/clarabridge.svg" style="width: 100%;"></a>
+					</div>
+					<div class="4u 12u$(medium)">
+						<a href="https://www.danteinc.com" target="_blank"><img src="sponsors/dante.png" style="width: 100%;"></a>
+					</div>
+				</div>
+				<div class="row uniform">
+					<div class="3u 12u$(medium)">
+						<a href="https://www.firebase.com" target="_blank"><img src="sponsors/firebase.png" style="width: 100%;"></a>
+					</div>
+					<div class="3u 12u$(medium)">
+						<a href="http://sense360.com" target="_blank"><img src="sponsors/sense360.png" style="width: 100%;"></a>
+					</div>
+					<div class="3u 12u$(medium)">
+						<a href="http://github.com" target="_blank"><img src="sponsors/github.png" style="width: 100%;"></a>
+					</div>
+					<div class="3u 12u$(medium)">
+						<a href="http://drifty.com" target="_blank"><img src="sponsors/drifty.png" style="width: 100%;"></a>
+					</div>
+				</div>
+				<br><br>
+				<p style="font-size: 22px; text-align:center">If you're interested in sponsoring DCHacks,<br> please <a style="font-weight:bold;" href="mailto:sponsor@dchacks.org">contact us</a> or check out the <a href="sponsorship.pdf" style="font-weight:bold;">sponsorship PDF</a>!</p>
+			</div>
+			</div>
+		</section>
 
-					<div class="row uniform">
-						<div class="4u 12u$(medium)">
-							<section class="box" style="height: 300px">
-								<center>
-									<i class="icon big rounded color1 fa-trophy"></i>
-									<h3>1st Place</h3>
-									<p>4 Pebble Smartwatches ($400)
+		<!-- Four -->
+		<section id="prizes" style="background-color:#354458"class="wrapper style2 special">
+			<div class="container">
+				<header class="major">
+					<h2 style="color:white">Prizes</h2>
+					<br>
+					<p style="color:white">What's a competition without a couple of prizes? We'll be releasing more soon!</p>
+				</header>
+				<div class="row uniform">
+					<div class="4u 12u$(medium)">
+						<section class="box" style="height: 300px">
+							<center>
+								<i class="icon big rounded color1 fa-trophy"></i>
+								<h3>1st Place</h3>
+								<p>4 Pebble Smartwatches ($400)
 									<br>$500 Cash Prize
-									<br>$200 DigitalOcean Credit</p>
-								</center>
-							</section>
-						</div>
-						<div class="4u 12u$(medium)">
-							<section class="box" style="height: 300px">
-								<center>
-									<i class="icon big rounded color9 fa-trophy"></i>
-									<h3>2nd Place</h3>
-									<p>$500 Cash Prize
-									<br>$200 DigitalOcean Credit</p>
-								</center>
-							</section>
-						</div>
-						<div class="4u$ 12u$(medium)">
-							<section class="box" style="height: 300px">
-								<center>
-									<i class="icon big rounded color6 fa-trophy"></i>
-									<h3>3rd Place</h3>
-									<p>$250 Cash Prize
-									<br>$200 DigitalOcean Credit</p>
-								</center>
-							</section>
-						</div>
+									<br>$200 DigitalOcean Credit
+								</p>
+							</center>
+						</section>
 					</div>
-
-					<div class="row uniform">
-
-
-						<div class="6u 12u$(medium)">
-							<section class="box" style="height: 125px">
-								<center>
-									<h3>Best Microsoft Hack</h3>
-									<p>4 Dell Venue Pro Tablets</p>
-								</center>
-							</section>
-						</div>
-
-						<div class="6u 12u$(medium)">
-							<section class="box" style="height: 125px">
-								<center>
-									<h3>Raffles</h3>
-									<p>Cash Prizes + Exclusive Swag</p>
-								</center>
-							</section>
-						</div>
+					<div class="4u 12u$(medium)">
+						<section class="box" style="height: 300px">
+							<center>
+								<i class="icon big rounded color9 fa-trophy"></i>
+								<h3>2nd Place</h3>
+								<p>$500 Cash Prize
+									<br>$200 DigitalOcean Credit
+								</p>
+							</center>
+						</section>
 					</div>
-
+					<div class="4u$ 12u$(medium)">
+						<section class="box" style="height: 300px">
+							<center>
+								<i class="icon big rounded color6 fa-trophy"></i>
+								<h3>3rd Place</h3>
+								<p>$250 Cash Prize
+									<br>$200 DigitalOcean Credit
+								</p>
+							</center>
+						</section>
+					</div>
 				</div>
-			</section>
-			<section id="schedule" class="wrapper style1 special">
+				<div class="row uniform">
+					<div class="6u 12u$(medium)">
+						<section class="box" style="height: 125px">
+							<center>
+								<h3>Best Microsoft Hack</h3>
+								<p>4 Dell Venue Pro Tablets</p>
+							</center>
+						</section>
+					</div>
+					<div class="6u 12u$(medium)">
+						<section class="box" style="height: 125px">
+							<center>
+								<h3>Raffles</h3>
+								<p>Cash Prizes + Exclusive Swag</p>
+							</center>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Five -->
+		<section id="schedule" class="wrapper style1 special">
+			<div class="container">
+				<header class="major">
+					<h2>Schedule</h2>
+					<p style="font-size: 22px; text-align:center; color: #474747">Workshops and more events will be released soon!</p>
+				</header>
 				<div class="container">
-					<header class="major">
-						<h2>Schedule</h2>
-						<p style="font-size: 22px; text-align:center; color: #474747">Workshops and more events will be released soon!</p>
-					</header>
-						<div class="container">
 					<div id="mrow" class="row lefted" id="scheduleID" style="line-height: 60%">
 						<div class="6u 12u$(medium)">
 							<h3 style="font-size: 1.2em"> Saturday, August 1, 2015 </h3>
@@ -357,42 +341,103 @@
 							<p class = "lefted">5:00 PM - Awards and Closing</p>
 							<p class = "lefted">5:30 PM - Bye! See ya' next year!</p>
 						</div>
-						
 					</div>
-
 				</div>
-					
+			</div>
+		</section>
+		
+		<!-- Six -->
+		<!--
+		<section id="judges" style="background-color:#354458"class="wrapper style2 special">
+			<div class="container">
+				<header class="major">
+					<h2 style="color:white">Judges</h2>
+					<br>
+					<p style="color:white">We're bringing the coolest judges to the event! Stay tuned!</p>
+				</header>
+				<div class="row uniform">
+					<div class="4u 12u$(medium)">
+						<section class="box" style="height: 300px">
+							<center>
+								<img src="judges/blank.png" style="width: 60%;">
+								<h3>AddThis</h3>
+								<p>We'll let you know who this judge is soon!</p>
+							</center>
+						</section>
+					</div>
+					<div class="4u 12u$(medium)">
+						<section class="box" style="height: 300px">
+							<center>
+								<img src="judges/blank.png" style="width: 60%;">
+								<h3>ID.me</h3>
+								<p>We'll let you know who this judge is soon!</p>
+							</center>
+						</section>
+					</div>
+					<div class="4u$ 12u$(medium)">
+						<section class="box" style="height: 300px">
+							<center>
+								<img src="judges/blank.png" style="width: 60%;">
+								<h3>FiscalNote</h3>
+								<p>We'll let you know who this judge is soon!</p>
+							</center>
+						</section>
+					</div>
 				</div>
-			</section>
-		<!-- Three -->
-
-	
+				<div class="row uniform">
+					<div class="2u 12u$(medium)">
+					</div>
+					<div class="4u 12u$(medium)">
+						<section class="box" style="height: 300px">
+							<center>
+								<img src="judges/blank.png" style="width: 60%;">
+								<h3>Yext</h3>
+								<p>We'll let you know who this judge is soon!</p>
+							</center>
+						</section>
+					</div>
+					<div class="4u 12u$(medium)">
+						<section class="box" style="height: 300px">
+							<center>
+								<img src="judges/blank.png" style="width: 60%;">
+								<h3>SocialRadar</h3>
+								<p>We'll let you know who this judge is soon!</p>
+							</center>
+						</section>
+					</div>
+					<div class="2u 12u$(medium)">
+					</div>
+				</div>
+			</div>
+		</section>
+		-->
 
 		<!-- Footer -->
-			<footer id="footer">
-				<div class="container">
-					<div class="row">
-						<div class="4u 12u$(medium)"><center>
+		<footer id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="4u 12u$(medium)">
+						<center>
 							<h3> More info: </h3>
 							<p>Need something else? Drop us a line at team@dchacks.org or talk to anyone on our team.</p>
-						</center></div>
-						<div class="4u 12u$(medium)"><center>
+						</center>
+					</div>
+					<div class="4u 12u$(medium)">
+						<center>
 							<h3> Connect with us! </h3>
-<!-- 							<a href="#" class="button fa-facebook">Like us on Facebook</a>
- -->						<a href = "https://www.facebook.com/DCHacksOfficial" target="_blank"><i class="icon rounded color1 fa-facebook"></i></a>
- 							<a href = "https://twitter.com/DCHacksOfficial" target="_blank"><i class="icon rounded color1 fa-twitter"></i></a>
- 						</center></div>
- 						
-						<div class="4u 12u$(medium)"><center>
+							<a href = "https://www.facebook.com/DCHacksOfficial" target="_blank"><i class="icon rounded color1 fa-facebook"></i></a>
+							<a href = "https://twitter.com/DCHacksOfficial" target="_blank"><i class="icon rounded color1 fa-twitter"></i></a>
+						</center>
+					</div>
+					<div class="4u 12u$(medium)">
+						<center>
 							<h3> About this site: </h3>
 							<p>Header photo courtesy of <a href="http://hackny.org/a/">hackNY.</a></p>
 							<p>Crafted and designed with love by the DCHacks team. Try on mobile!</p>
-						</center></div>
-						
+						</center>
 					</div>
-
 				</div>
-			</footer>
-
+			</div>
+		</footer>
 	</body>
 </html>
