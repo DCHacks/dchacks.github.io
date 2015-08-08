@@ -1046,10 +1046,12 @@
 /* Banner */
 
 	#banner {
-		background-image: url("../swg.jpg");
+		background-image: url("../swg.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 		background-position: top center;
-/*		background-attachment: fixed;
-*/		background-size: cover;
 		background-color: #354458;
 		color: #ffffff;
 		padding: 14em 0em 14em;
