@@ -16,6 +16,8 @@
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
 		<script src='elevator.min.js'></script>
+		<script src="js/charts/Chart.js"></script>
+		<script src="js/numeral/numeral.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="http://bootswatch.com/yeti/bootstrap.min.css" />
 			<link rel="stylesheet" href="http://hackdc.github.io/styles/style.css"/>
@@ -88,11 +90,32 @@
 				<header class="major">
 					<h2>About</h2>
 					<br>
-					<p style="line-height: 135%; color: #474747">DCHacks is Washington, D.C.'s premier high school hackathon and the largest of its kind on the eastern seaboard! We're inviting more than 300 of the brightest students in the area to come together to create awesome software and hardware projects within 24 hours. We'll then judge the projects at the end of the event for prizes!</p>
-					<p style="line-height: 135%; color: #474747">We'll provide the food, resources, swag, and mentorship, all for free, to fuel you for the duration of the event. You'll hear cool tech talks and meet amazing guest speakers from the top tech startups and companies in the world. The only thing that we need from you is a will to learn! We hope to see you there!</p>
+					<p style="line-height: 135%; color: #474747">DCHacks is Washington, D.C.'s premier high school hackathon and the largest of its kind on the eastern seaboard! We're excited that this year's event was a <strong>huge</strong> success! Stay tuned for next year's event!</p>
+					<p style="line-height: 135%; color: #474747">
+						<strong style="font-size: 200%">305</strong> students
+						<span style="margin-left: 30px"><strong style="font-size: 200%">57</strong> mentors</span>
+						<span style="margin-left: 30px"><strong style="font-size: 200%">$3385</strong> in prizes</span>
+						<span style="margin-left: 30px"><strong style="font-size: 200%">11</strong> workshops</span>
+						<span style="margin-left: 30px"><strong style="font-size: 200%">5</strong> tournaments</span>
+					</p>
+					<div class="row 150%">
+						<div class="4u 12u$(medium)">
+							<p><strong style="font-size: 90%">Overall, do you think DCHacks was a success?</strong></p>
+							<canvas id="successChart" width="200" height="200"></canvas>
+						</div>
+						<div class="4u 12u$(medium)">
+							<p><strong style="font-size: 90%">Would you recommend DCHacks to a friend?</strong></p>
+							<canvas id="againChart" width="200" height="200"></canvas>
+						</div>
+						<div class="4u$ 12u$(medium)">
+							<p><strong style="font-size: 90%">Students: Would you attend DCHacks again?</strong></p>
+							<canvas id="recommendChart" width="200" height="200"></canvas>
+						</div>
+					</div>
 				</header>
 			</div>
 		</section>
+		<script src="js/chart.js"></script>
 		<!-- Two -->
 		<section id="FAQ" class="wrapper style3 special">
 			<div class="container">
