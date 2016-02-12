@@ -1,8 +1,12 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @font-face {
+    font-family: 'Avenir Next';
+    src: url('AvenirNext-Bold.ttf');
+}
+@font-face {
     font-family: 'Avenir';
-    src: url('Avenir.otf');
+    src: url('Avenir-Book.ttf');
 }
 body {
     background: #fff;
@@ -892,7 +896,7 @@ body.landing #header nav a {
     background-image: url("../swg.jpg");
     background-size: cover;
     background-position: top center;
-    background-color: #354458;
+    background-color: #4C6A95;
     color: #ffffff;
     padding: 14em 0em 14em;
     text-align: center;
