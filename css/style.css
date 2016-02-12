@@ -897,6 +897,8 @@ body.landing #header nav a {
     background-size: cover;
     background-position: top center;
     background-color: #6C6E70;
+    min-height: 550px;
+    height: 100vh;
     color: #ffffff;
     padding: 14em 0em 14em;
     text-align: center;
