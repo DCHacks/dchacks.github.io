@@ -1,8 +1,8 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @font-face {
-    font-family: 'Avenir';
-    src: url('Avenir.otf');
+    font-family: 'Klinic Slab';
+    src: url('Klinic-Slab.otf');
 }
 body {
     background: #fff;
@@ -26,7 +26,7 @@ input,
 select,
 textarea {
     color: #444;
-    font-family: "Avenir", Helvetica, sans-serif;
+    font-family: "Klinic Slab", Helvetica, sans-serif;
     font-size: 22px;
     font-weight: 400;
     line-height: 1.65em;
@@ -42,7 +42,7 @@ a:hover {
 strong,
 b {
     color: #474747;
-    font-weight: 500;
+    font-weight: 700;
 }
 em,
 i {
@@ -58,7 +58,7 @@ h4,
 h5,
 h6 {
     color: #474747;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1em;
     margin: 0 0 1em 0;
 }
@@ -193,7 +193,7 @@ label {
     color: #474747;
     display: block;
     font-size: 0.9em;
-    font-weight: 400;
+    font-weight: 700;
     margin: 0 0 1em 0;
 }
 input[type="text"],
@@ -632,7 +632,7 @@ table td {
 table th {
     color: #474747;
     font-size: 0.9em;
-    font-weight: 600;
+    font-weight: 700;
     padding: 0 0.75em 0.75em 0.75em;
     text-align: left;
 }
@@ -737,7 +737,7 @@ input[type="reset"].big,
 input[type="button"].big,
 .button.big {
     font-size: 1.35em;
-    background-color: #0AA0D9;
+    background-color: #EB7260;
 }
 input[type="submit"].alt,
 input[type="reset"].alt,
@@ -822,7 +822,7 @@ body.landing #header nav a {
     color: #ffffff;
     height: inherit;
     left: 3em;
-    font-family: Avenir, serif;
+    font-family: Klinic Slab, serif;
     line-height: inherit;
     margin: 0;
     padding: 0;
@@ -967,7 +967,7 @@ body.is-touch #banner {
     margin-bottom: 3em;
 }
 .wrapper.style3 {
-    background-color: #0AA0D9;
+    background-color: #354458;
     color: #ffffff;
 }
 .wrapper.style3 h2,
@@ -986,7 +986,7 @@ body.is-touch #banner {
 
 /* Footer */
 #footer {
-    background: #0AA0D9;
+    background: #383b43;
     padding: 6em 0em 4em;
 }
 #footer h2,
@@ -1045,7 +1045,7 @@ body.is-touch #banner {
     border-radius: 4px;
     color: rgba(0, 0, 0, 0.25);
     display: block;
-    font-weight: 600;
+    font-weight: 700;
     height: 2.75em;
     line-height: 2.75em;
     text-align: center;
@@ -1063,11 +1063,11 @@ p {
     font-size: 18px;
 }
 h2 {
-    font-family: Avenir, serif;
+    font-family: Klinic Slab, serif;
     font-size: 50%;
 }
 h3 {
-    font-family: Avenir, serif;
+    font-family: Klinic Slab, serif;
     font-size: 110%;
 }
 #mrow {
