@@ -6,8 +6,8 @@ var options = {
 var successData = [
     {
         value: 100,
-        color: "#0AA0D9",
-        highlight: "#0990C3",
+        color: "#46BFBD",
+        highlight: "#5AD3D1",
         label: "Yes"
     }
 ]
@@ -18,8 +18,8 @@ var successChart = new Chart(ctx).Doughnut(successData, options);
 var againData = [
     {
         value: 97,
-        color: "#0AA0D9",
-        highlight: "#0990C3",
+        color: "#46BFBD",
+        highlight: "#5AD3D1",
         label: "Definitely"
     },
     {
@@ -36,8 +36,8 @@ var againChart = new Chart(ctx).Doughnut(againData, options);
 var recommendData = [
     {
         value: 96,
-        color: "#0AA0D9",
-        highlight: "#0990C3",
+        color: "#46BFBD",
+        highlight: "#5AD3D1",
         label: "Definitely"
     },
     {
